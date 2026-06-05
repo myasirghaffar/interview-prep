@@ -64,6 +64,17 @@ export default function InterviewGuide() {
         <p className="ig-hint">
           Click any question to expand · Toggle EN / Roman Urdu / Both · Filter by Mid or Senior level
         </p>
+        <p className="ig-hint">
+          Developed by: &nbsp;
+          <a
+            href="https://github.com/myasirghaffar"
+            className="ig-hint__link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Yasir Ghaffar
+          </a>
+        </p>
       </main>
     </div>
   );

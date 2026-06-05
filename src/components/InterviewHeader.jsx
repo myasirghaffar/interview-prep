@@ -33,7 +33,17 @@ export function InterviewHeader({
           </span>
         </div>
 
-        <h1 className="ig-header__title">Frontend Interview Prep Guide</h1>
+        <h1 className="ig-header__title">
+          Frontend Interview Prep Guide By{' '}
+          <a
+            href="https://yasirghaffar.netlify.app/"
+            className="ig-header__title-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Yasir Ghaffar
+          </a>
+        </h1>
         <p className="ig-header__subtitle">
           JavaScript · CSS · HTML · React · React Native · API · Backend — with Roman Urdu
           explanations

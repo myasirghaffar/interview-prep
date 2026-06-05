@@ -51,6 +51,21 @@
   color: transparent;
 }
 
+.ig-header__title-link {
+  background: none;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  -webkit-text-fill-color: #f97316;
+  color: #f97316;
+  text-decoration: none;
+}
+
+.ig-header__title-link:hover {
+  -webkit-text-fill-color: #ea580c;
+  color: #ea580c;
+  text-decoration: underline;
+}
+
 .ig-header__subtitle {
   font-size: 13px;
   color: #64748b;
@@ -512,4 +527,15 @@
   font-size: 12px;
   color: #64748b;
   font-style: italic;
+}
+
+.ig-hint__link {
+  color: #f97316;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.ig-hint__link:hover {
+  color: #ea580c;
+  text-decoration: underline;
 }

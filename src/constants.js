@@ -4,7 +4,8 @@ export const headerCategoryBadges = [
   ['🟨 JavaScript', '#F7DF1E'],
   ['🎨 CSS', '#38BDF8'],
   ['🌐 HTML', '#FB923C'],
-  ['⚛️ React / RN', '#818CF8'],
+  ['⚛️ React', '#818CF8'],
+  ['📱 React Native', '#FB7185'],
   ['🔌 APIs', '#34D399'],
   ['🖥️ Backend for FE', '#A78BFA'],
 ];
